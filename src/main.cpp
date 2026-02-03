@@ -3,6 +3,7 @@
 #define echopin 10
 void setup() {
 // write your initialization code here
+    Serial.begin(9600);
     pinMode(trigpin,OUTPUT);
     pinMode(echopin,INPUT);
 }
